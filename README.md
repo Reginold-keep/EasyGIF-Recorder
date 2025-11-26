@@ -29,7 +29,7 @@
 如果你想修改代码或从源码运行：
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/你的用户名/EasyGIF-Recorder.git
+git clone https://github.com/Reginold-keep/EasyGIF-Recorder.git
 
 # 2. 安装依赖
 pip install -r requirements.txt
@@ -81,7 +81,7 @@ pyinstaller -F EasyGIF_Lite.spec
 If you want to modify the code or run from source:
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/EasyGIF-Recorder.git
+git clone https://github.com/Reginold-keep/EasyGIF-Recorder.git
 
 # 2. Install dependencies
 pip install -r requirements.txt
@@ -93,7 +93,7 @@ python gif_recorder.py
 **3. Package by Yourself**
 ```bash
 # Package as a single executable file using PyInstaller
-pyinstaller -F EasyGIF_Lite.spec
+pyinstaller -F EasyGIF.spec
 ```
 
 ### Technology Stack
@@ -161,7 +161,7 @@ EasyGIF-Recorder/
 │
 ├── gif_recorder.py        # 主程序
 ├── requirements.txt       # 依赖库
-├── EasyGIF_Lite.spec      # PyInstaller 打包配置
+├── EasyGIF_V5.spec      # PyInstaller 打包配置
 ├── output_gifs/           # 输出的 GIF 文件夹
 ├── README.md              # 项目说明文档
 └── LICENSE                # MIT 许可证
