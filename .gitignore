@@ -1,0 +1,16 @@
+# 忽略 Python 编译文件
+__pycache__/
+*.pyc
+
+# 忽略虚拟环境 (非常重要，否则会上传几千个文�?)
+venv/
+.env
+
+# 忽略打包生成的文件夹
+build/
+dist/
+*.spec
+
+# 忽略 IDE 配置文件
+.vscode/
+.idea/
